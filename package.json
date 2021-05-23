@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run build && npm run server",
     "devClient": "parcel web/client/index.html",
-    "build": "parcel build web/client/index.html --out-dir public",
+    "build": "parcel build web/client/index.html --out-dir web/public",
     "server": "nodemon web/server.js",
     "consume": "node worker/app.js"
   },
