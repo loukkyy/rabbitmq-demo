@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/loukkyy/rabbitmq-demo">
-    <img src="web/client/800px-RabbitMQ_logo.svg.png" alt="Logo" width="1000">
+    <img src="web/client/rabbitMQ-logo.png" alt="Logo" width="1000">
   </a>
 
   <h3 align="center">RabbitMQ-demo</h3>
