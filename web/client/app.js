@@ -10,7 +10,7 @@ const $messageForm = document.querySelector("#message-form")
 const $inputMessage = document.querySelector("#input-message")
 const $jobList = document.querySelector(".job-list")
 const $jobTemplate = document.querySelector("#job-template")
-const socket = new WebSocket("ws://localhost:3001")
+const socket = new WebSocket("ws://localhost:3000")
 
 // listen to incoming messages on websocket
 socket.onmessage = (message) => {

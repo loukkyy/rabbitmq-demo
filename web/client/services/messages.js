@@ -1,4 +1,4 @@
-const HOST = "http://localhost:3001"
+const HOST = "http://localhost:3000"
 
 async function createMessage(data) {
   const response = await fetch(`${HOST}/messages`, {

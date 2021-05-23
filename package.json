@@ -4,9 +4,10 @@
   "description": "",
   "main": "publisher.js",
   "scripts": {
-    "start": "parcel web/client/index.html",
-    "build": "parcel build web/client/index.html",
-    "dev": "nodemon web/server.js",
+    "dev": "npm run build && npm run server",
+    "devClient": "parcel web/client/index.html",
+    "build": "parcel build web/client/index.html --out-dir public",
+    "server": "nodemon web/server.js",
     "consume": "node worker/app.js"
   },
   "keywords": [],

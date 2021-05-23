@@ -12,10 +12,9 @@ app.use(express.json())
 
 // api routes
 app.use("/messages", require("./routes/messages"))
-
 app.use(express.static(path.join(__dirname, "public")))
 
 const server = http.createServer(app)
 configureWebSockets(server)
-const PORT = 3001 || process.env.PORT
+const PORT = 3000 || process.env.PORT
 server.listen(PORT, () => console.log(`Server listening on port ${PORT}`))
