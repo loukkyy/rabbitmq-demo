@@ -85,7 +85,10 @@ To get a local copy up and running follow these simple example steps.
   ```sh
   npm install npm@latest -g
   ```
-* Rabbit MQ (TODO)
+* Rabbit MQ
+  ```sh
+  docker run --name rabbitmq -p 5672:5672 rabbitmq
+  ```
 
 ### Installation
 
