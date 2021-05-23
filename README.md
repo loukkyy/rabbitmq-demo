@@ -64,10 +64,10 @@
 ## About The Project
 
 ### Architecture
-[![Architecture][architecture-diagram]](https://example.com)
+[![Architecture][architecture-diagram]](images/architecture.svg)
 
 ### Web Client
-[![Client Screen Shot][product-screenshot]](https://example.com)
+[![Client Screen Shot][product-screenshot]](images/screenshot.png)
 
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
@@ -168,6 +168,6 @@ Projects Link: [https://github.com/loukkyy](https://github.com/loukkyy)
 [license-shield]: https://img.shields.io/github/license/loukkyy/rabbitmq-demo.svg?style=for-the-badge
 [license-url]: https://github.com/loukkyy/rabbitmq-demo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/servan-fichet-14676235
 [product-screenshot]: images/screenshot.png
 [architecture-diagram]: images/architecture.svg
