@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css">
+    <script src="app.js" defer></script>
+    <title>RabbitMQ Demo</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1><img src="rabbitMQ-logo.png" alt="RabbitMQ Logo" class="logo"> Demo</h1>
+
+        <form class="row g-3 align-items-center"" id="message-form">
+          <div class="col-8">
+            <input
+              class="form-control"
+              type="text"
+              name="message"
+              id="input-message"
+              autocomplete="off"
+            /></div>
+          
+          <div class="col-auto">
+            <button class="btn btn-primary" id="send-message-button">Submit</button>
+          </div>
+        </form>
+      <div class="job-list"></div>
+    </main>
+    <template id="job-template">
+      <div class="card" data-job>
+        <div class="card-header">
+          <h4 class="card-title" data-title>Job title</h4>
+          <span class="badge rounded-pill" data-status>Status</span>
+        </div>
+        <div class="col card-body">
+          <p class="card-text" data-description>Description</p>
+          <button class="btn btn-warning" data-remove-card-button>Delete</button>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

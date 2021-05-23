@@ -1,0 +1,9 @@
+.job-list {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin: 1rem;
+}
+.logo {
+    width: 50%;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "start": "parcel web/client/index.html",
+    "build": "parcel build web/client/index.html",
+    "dev": "nodemon web/server.js",
+    "consume": "node worker/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7",
+    "socketio": "^1.0.0",
+    "toastr": "^2.1.4",
+    "uuid": "^3.4.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
