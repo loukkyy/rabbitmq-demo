@@ -63,8 +63,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### Architecture
+[![Architecture][architecture-diagram]](https://example.com)
 
+### Web Client
+[![Client Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
@@ -167,3 +170,4 @@ Projects Link: [https://github.com/loukkyy](https://github.com/loukkyy)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+[architecture-diagram]: images/architecture.svg
